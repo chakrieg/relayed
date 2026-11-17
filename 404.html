@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Relayed — готовый Windows-клиент под ваш бренд</title>
-<meta name="description" content="Windows-клиент для VPN-сервисов и провайдеров обхода блокировок: импорт подписки, список серверов с пингом, одна кнопка. Ядро sing-box, оболочка Tauri 2. Три готовых варианта оформления.">
+<meta name="description" content="Сетевой клиент для Windows на базе sing-box: клиент для управления прокси-подписками, управление туннелями (VLESS / Hysteria2), список серверов с пингом, одна кнопка. Оболочка Tauri 2. Три готовых варианта оформления.">
 <script>document.documentElement.classList.add('js');</script>
 <style>
 /* ------------------------------------------------------------------ tokens */
@@ -612,7 +612,7 @@ footer { border-top: 1px solid var(--border); padding: 40px 0 54px; margin-top: 
         <div class="variant">
           <div class="variant__meta">
             <h3>Компактный</h3>
-            <p>Это другой интерфейс, а не тема: маленькое окно, круг-индикатор состояния с живой шкалой скорости, одна строка выбранного сервера и три вкладки снизу. Ориентир — Amnezia VPN.</p>
+            <p>Это другой интерфейс, а не тема: маленькое окно, круг-индикатор состояния с живой шкалой скорости, одна строка выбранного сервера и три вкладки снизу. Ориентир — Amnezia Core.</p>
             <div class="variant__size">
               <svg width="15" height="15" viewBox="0 0 16 16" fill="none" aria-hidden="true"><rect x="4.5" y="1.6" width="7" height="12.8" rx="2" stroke="currentColor" stroke-width="1.4"/><path d="M6.8 3.4h2.4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
               Окно 380 × 640
@@ -792,7 +792,7 @@ footer { border-top: 1px solid var(--border); padding: 40px 0 54px; margin-top: 
 <section class="section--tight section" id="protocols">
   <div class="wrap section__head" data-reveal>
     <span class="kicker">Протоколы</span>
-    <h2>То, чем пользуется рынок обхода блокировок</h2>
+    <h2>То, чем пользуется рынок сетевых клиентов</h2>
     <p>Оболочка не переписывает ядро и не форкает его: она читает вашу подписку, переводит её в конфигурацию sing-box и запускает ядро отдельным процессом. Новый протокол в ядре приходит в вашу сборку обновлением.</p>
   </div>
   <div class="marquee" data-reveal>
@@ -916,7 +916,7 @@ footer { border-top: 1px solid var(--border); padding: 40px 0 54px; margin-top: 
       </div>
       <div class="hrow" data-reveal style="--d:120ms">
         <h4>Kill switch</h4>
-        <p><b>Полностью не реализован.</b> Для рынка обхода блокировок это обычно приемлемо, потому что задача обратная: не «не пустить наружу», а «пробить наружу». Для сервиса класса «приватный VPN» — нет.</p>
+        <p><b>Полностью не реализован.</b> Для рынка сетевых клиентов это обычно приемлемо, потому что задача обратная: не «не пустить наружу», а «пробить наружу». Для сервиса класса «приватный туннель» — нет.</p>
       </div>
       <div class="hrow" data-reveal style="--d:180ms">
         <h4>Лицензия</h4>
